@@ -1,0 +1,98 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	    
+}
+
+.logo img{
+	width:30%!important;
+}
+input{
+	border:none!important;
+}
+.nav{
+	display:flex;
+justify-content:space-evenly;
+}
+.nav i{
+	font-size:25px;
+	
+}
+.icon{
+	height:40px;
+	width:40px;
+	background-color:#80808052;
+	border-radius:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.icon i{
+	font-size:20px;
+
+}
+.nav li:hover{
+	background-color:#8080802e;
+	border-radius:0.3rem;
+	
+}
+/* ......................................................left-section.............................................................. */
+#left-section{
+	background-color:#80808024;
+}
+.nav-icon img{
+	width:8%;
+}
+.nav-icon a{
+	text-decoration:none;
+	color:black;
+}
+.nav-icon:hover{
+	background-color:#8080802e;
+	border-radius:0.3rem;
+}
+.space{
+	margin-bottom:0!important;
+}
+.color{
+	font-size:15px!important;
+	color:gray!important;
+}
+
+
+/* ..............................................section 3......................................... */
+
+.share{
+		display:flex;
+		justify-content:space-evenly;
+		align-items:center;
+		list-style:none;
+		}
+		.share li i{
+			color:gray;
+			font-size:20px;
+		padding:0 10px;}
+		.share li i:hover{
+		color:red;}
+		
+		
+.like{
+	height:50px;
+	width:50px;
+	background-color:#8080802e;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:50rem;
+}
+.time input{
+	width:20%!important;
+}
+.imagepost{
+	display:none;
+}
+.comment{
+	display:none;
+	width:100%;
+}
